@@ -81,7 +81,7 @@
 
     /**
      * @name impush-client 
-     * @description Õâ¸öÏîÄ¿ÈÃÎÒ·¢¼ÒÖÂ¸»¡­
+     * @description è¿™ä¸ªé¡¹ç›®è®©æˆ‘å‘å®¶è‡´å¯Œâ€¦
      * @date 2016-12-1
      */
 
@@ -116,8 +116,8 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/min_photos/' + data.link[i];
-          var src = 'https://raw.githubusercontent.com/lawlite19/blog-back-up/master/photos/' + data.link[i];
+          var minSrc = 'https://github.com/MaDejun/blog/tree/master/photos' + data.link[i];
+          var src = 'https://github.com/MaDejun/blog/tree/master/photos' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';
@@ -129,7 +129,7 @@
                 <figcaption style="display:none" itemprop="caption description">' + data.text[i] + '</figcaption>\
             </figure>';
         }
-        ulTmpl = ulTmpl + '<section class="archives album"><h1 class="year">' + data.year + 'Äê<em>' + data.month + 'ÔÂ</em></h1>\
+        ulTmpl = ulTmpl + '<section class="archives album"><h1 class="year">' + data.year + 'å¹´<em>' + data.month + 'æœˆ</em></h1>\
         <ul class="img-box-ul">' + liTmpl + '</ul>\
         </section>';
       }
