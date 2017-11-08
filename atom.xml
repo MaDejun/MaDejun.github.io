@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ma De jun</title>
+  
+  <subtitle>何以解忧 唯有暴富</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.madejun.top/"/>
+  <updated>2017-11-02T16:14:16.385Z</updated>
+  <id>http://www.madejun.top/</id>
+  
+  <author>
+    <name>Yolo-m</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>二零一七的最后一个季节</title>
+    <link href="http://www.madejun.top/2017/11/01/2017.11.1/"/>
+    <id>http://www.madejun.top/2017/11/01/2017.11.1/</id>
+    <published>2017-11-01T09:33:52.000Z</published>
+    <updated>2017-11-02T16:14:16.385Z</updated>
+    
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><script src=/js/crypto-js.js></script><script>function doDecrypt(pwd, onError) {console.log("in doDecrypt");var txt = document.getElementById("enc_content").innerHTML;var plantext;try {  var bytes = CryptoJS.AES.decrypt(txt, pwd);plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById("enc_content").innerHTML = plaintext;document.getElementById("enc_content").style.display = "block";   document.getElementById("enc_passwd").style.display = "none";}</script><div id="enc_content" style="display:none">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</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;\assets\js\APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=/js/crypto-js.js&gt;&lt;/script&gt;&lt;script&gt;
+function doDecrypt(pwd, onError) {
+	console
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="http://www.madejun.top/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+      <category term="个人" scheme="http://www.madejun.top/tags/%E4%B8%AA%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>you shoud study hard</title>
+    <link href="http://www.madejun.top/2017/10/10/you%20shoud%20study%20hard/"/>
+    <id>http://www.madejun.top/2017/10/10/you shoud study hard/</id>
+    <published>2017-10-09T17:10:00.000Z</published>
+    <updated>2017-11-02T16:14:48.938Z</updated>
+    
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><script src=/js/crypto-js.js></script><script>function doDecrypt(pwd, onError) {console.log("in doDecrypt");var txt = document.getElementById("enc_content").innerHTML;var plantext;try {  var bytes = CryptoJS.AES.decrypt(txt, pwd);plaintext = bytes.toString(CryptoJS.enc.Utf8);} catch(err) {if(onError) {onError(err);}return;}document.getElementById("enc_content").innerHTML = plaintext;document.getElementById("enc_content").style.display = "block";   document.getElementById("enc_passwd").style.display = "none";}</script><div id="enc_content" style="display:none">U2FsdGVkX1+YItw/07PyHlmD7v8Pk3jVNXQPRkCcoTKudmNbardwCvohrdPJntYolsBwAmQC5ztXgIm58Mx6WKBR4tT4eu1LpJ6NfZP8vdnI3HnB/hFUfu6kIavhtCrrpFuRxDJxiG4e7qwYwMgsk1IfboWbkOnuosZkRfeNJacueRmvrB+aq4/xa5ksJ+oyUGIupp5FU5xkq8VCscEUFs1UVRR2Ky0yKCRNPirFa18Dugm99bEdaUg2RLj9CeBf9ub9WuAqVEmhuLoxKwx0nLCWcPp8iXSv/Q26hnqsri6Mrzk8ALD2hE7Gw4qP4ZkLuD236/HebAgER2boYDT13D8jdDT38Znp9x8dj2lR4j5pmJt4Q2i2toqLq3NtG8d6ZAlQuiDBslhwuwh5v2A+Maugfd39QZrfGUEGFUNIl5shuftzXcdwjELsAKbXZTNfcrJzCJEFkTnPHFimEfpKnK6BWCLMlOpg4IM7deKvNkMUld3CutcxWc2AUmRt5XJoTUC7vojxC5N+/Ga7mIW6TSOnBLXt555/+WbSJN/g2lKMI0+MscqK0hHqHviDsbV0i/6lJBQKNxvWfI6f2tCih53oBYzMClIjWwhPSiSOojYVM1AWRle1uPpwkDVt2D7iqqcmE7bhjmjuMyQpF2fyCwhLyxsv70iyMgsCH5playLG9c0BD2xjHwHgl0ndPj9ZD2EAM5ZTKUX/UTPgSFbN4irZ7iJAShOVEBak+w0MNBuVpIL9INnu5i9okZvzSe1vOl0z78UkKkPgF7uPRsKoUPQuOKMYSw19l70vJyvptmwg5hBwvGse2WDUH6kn9LQnEY9dVOoHd2hl5Tjhcus4vTc+gtZXSqdqEjOOulzHdNU0gYJ4mQ7OIsmRMYsnZnjOKH/iXJloXT7djOv6nsr6Vq27e0bSBQwWLohmw00UP+i73G0YUPaOkmkiEE27z3zFWt4qR9x/sUqCkUC80D9ecGOxWUpM6LNvPLrZq3jDWPvprx3mKqa2CH9TK7r/PM4e8WMnBchRKQ+MohrkWY4lI3WCZ28EDZCvBY2HCjWjZuE9oLCtNyBXyGwlttnKQc7UvChWT1WKsdJVLK5DNBjVOlvMpoOQcU7/WZbpA0574ntYxaszFe4LxRm0vyzMN74V5VyaRwB192wJSPg4ZNFSpjBhKqjCldCHkyqcs8OwGfsmnj1c0hZIIJ+ZSWDXm+NnZyEX3E/IXkDROi5+lc4fs82H8Var0IWI5XrcCGBkVVpt6ZuFNrY8Ao0yYNiTDPyqDlLZt1hDJD8r+CYQjJ+AqnJ1fjxhUGbjeLBOPEjV6Q5SqTPusoFpp73Gp0IhYeWBxDju1Gzy4NTA8TcWOkP2ZZHnGhPOTamINfJUmeCWV0btbRSotEg0Z8mFqi73j44paStXogmva+rBps2M7pu7cg==</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div><script>var onError = function(error) {document.getElementById("enc_error").innerHTML = "password error!"};function decrypt() {var passwd = document.getElementById("enc_pwd_input").value;console.log(passwd);doDecrypt(passwd, onError);}</script></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script src=&quot;\assets\js\APlayer.min.js&quot;&gt; &lt;/script&gt;&lt;script src=/js/crypto-js.js&gt;&lt;/script&gt;&lt;script&gt;
+function doDecrypt(pwd, onError) {
+	console
+      
+    
+    </summary>
+    
+      <category term="小记" scheme="http://www.madejun.top/categories/%E5%B0%8F%E8%AE%B0/"/>
+    
+    
+      <category term="个人" scheme="http://www.madejun.top/tags/%E4%B8%AA%E4%BA%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【转于简书】村头哑女</title>
+    <link href="http://www.madejun.top/2017/10/08/10%E6%9C%881%E5%8F%B7/"/>
+    <id>http://www.madejun.top/2017/10/08/10月1号/</id>
+    <published>2017-10-08T10:27:33.000Z</published>
+    <updated>2017-11-02T16:14:31.281Z</updated>
+    
+    <content type="html"><![CDATA[<script src="\assets\js\APlayer.min.js"> </script><p><img src="/2017/10/08/10月1号/villiager.jpeg" alt="烟花"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="256" height="52" src="//music.163.com/outchain/player?type=2&id=458348749&auto=1&height=32"></iframe><br>﻿<font color="white">她在等待一个人的到来， 但那个人永远也不会回来了，但她还是相信那个人会出现在她面前。﻿﻿<br>她就是我们村的哑巴女——百灵，村里人都管他叫三姐，因为她在家里排行老三。﻿﻿<br>说起她为啥变成了哑巴，还要从她出生开始说起，本来这隔壁村谢家已经有了2个女儿，然后为了要个男孩，不顾计划生育，非要生个男孩，结果这丫头生出来，就不怎么招待见。家里人都是比较失望，尤其是她那爷爷奶奶。﻿﻿</font></p><font color="white"><br>这三姐刚出生，还是会嘤嘤啼哭，直到长到三岁，不知怎么的就突然不会说话，只会啊啊的叫着，这谢家人，本来就不太喜欢这三女儿。就送给了我们村，一对老夫妻手中，这家男人姓薛，大家都管他叫老薛。<a id="more"></a>老夫妻膝下无子，虽然知道不会说话，好在还能听见，还是收养了这个孩子。﻿﻿<br><br>老两口还是非常宠爱这个女儿的，虽然不是亲生，但是视如己出。把最好的，都给了这个哑巴女儿，并且还给她从新娶了个名字，叫“百灵”，希望有一天这个女儿可以像百灵鸟那样歌唱。﻿﻿<br><br>三姐因为哑巴的原因，也就没有上学，只是在家里帮着养父母干着家务活。做完活，就会在村头看人，她主要还是看像我们这样背着书包上学的人。她非常渴望上学，虽然她知道自己上不了学。﻿﻿<br><br>她虽然是个哑巴，但是她很受大家欢迎，因为她非常的善良。每当有人路过村头，需要帮忙，她都会主动帮忙，并且一直如此。﻿﻿<br><br>记得有一年，我骑自行车，正好在村村口拐弯处，摔倒在地，好半天都没有爬起来。这时候，不知百灵从哪个地方窜出来的。立马把我扶起，而且还帮着我把自行车给推回家。我留他在家吃饭，她摇摇头，然后就回家了。﻿﻿<br><br>百灵除了不会说话，其他和正常人没有区别，而且还心灵手巧，会各种手工活。村里只有有啥事，都会叫上百灵。渐渐的百灵也在周边几个村子出了名，都夸村里老薛捡了个宝贝。﻿﻿<br><br>百灵听到别人夸自己，心里也挺高兴，但是她也还是高兴不起来，因为自己是个哑巴，她总觉得自己和别人不一样。总怕别人会在背地里说她，或者笑话她。﻿﻿<br><br>百灵长到18岁，就有人上门提亲，提亲的事隔壁村的老周家。老周家有个罗锅儿子，一直都20好几了都还没有找到人家。﻿﻿<br><br>这不听人说，咱们村有个叫百灵的女孩，除了不会说话，其他各方面都很优秀。就托人来说媒了。老薛二口子可是乐坏了。想着自己的哑巴女儿还有人看上。想着自己在有生之年说不定还可以抱孙子呢？﻿﻿<br><br>老两口寻思着，这老周家的罗锅，自己家的百灵会喜欢吗？﻿﻿<br><br>百灵刚从屋外回来，就看家里围满了人，都是来看热闹的。都知道这有人来说媒，这村里妇女最喜欢八卦了，她们根本就不知道提亲的是谁，就在一边窃窃私语起来。有的说，“这百灵真有福气，有人上门提亲。”有的说，“也不知道这提亲的人咋想的，娶个哑巴干嘛？”还有的说，“这百灵说不定还看不上人家呢？百灵这孩子很懂事。”﻿﻿<br><br>大家七嘴八舌的说着，百灵进了家门，看见有人坐在大屋中间，屋内摆了不少提亲的礼品，有糖，猪腿，鸡等。百灵见过提亲人，啊了几声，表示礼貌。然后回到了自己的房间。﻿﻿<br><br>老薛和提亲人商量一下，可以让老周下次把儿子带过来。然后让他们自己见见面，他还要征求自己女儿的意见。﻿﻿<br><br>提亲人走后，老薛找到女儿把情况都和她说了，百灵也没有说啥，因为她尊重父亲，只要父亲高兴，她都愿意。﻿﻿<br><br>没过几天，这老周带着儿子来了，二人见面后，百灵还有些不好意思，这小周也有些拘谨，手都不知道放什么地方好。下周知道百灵是个哑巴，也没有多问啥，只是静静地看着，百灵也不时的偷偷瞄上几眼罗锅。﻿﻿<br><br>这次见面后，罗锅经常到老薛家帮忙着做些家务，百灵也都知道罗锅的心思。百灵也有些喜欢这个老实巴交的罗锅，只是没有表现出来而已。﻿﻿<br><br>也就是第二年，百灵嫁给了罗锅。嫁到罗锅家后，罗锅比较关心百灵，基本不让百灵做家务，全部自己包了。﻿﻿<br><br>记得有次罗锅来我们村，和我说，有次为了给百灵捉鱼，因为百灵喜欢吃鱼，差点就把命送给了水库，因为那个水库我知道，水比较深。说的时候，罗锅很轻松，并且脸上漏出一丝笑容。﻿﻿<br><br>百灵坐在旁边，不时的发出“啊！啊！”的声音，脸上也是堆满了幸福！我把他们二个人的手放在一起，祝福他们白头偕老！﻿﻿<br><br>小二口婚后不久，有了一个孩子。生活还算幸福，可老天总对百灵不公平。﻿﻿<br><br>罗锅在给邻村建房子，结果从二楼摔了下来，其实不算高，结果就把命给摔没了。当百灵赶到的时候，身体已经没了温度。﻿﻿<br><br>﻿百灵失去了罗锅，变得消沉起来，她每天都会抱着孩子，在几个村口来回转悠。想看看罗锅是否出现。﻿﻿<br><br>突然有一年，百灵还是想不开，跳河自杀。好在正好被路过的老李头给救了。当百灵被救后，百灵还是会去那个村头转悠！﻿﻿<br><br>村里人都在议论，百灵是不是疯了。其实只有百灵自己知道自己有没有疯，她其实很清醒，她只是想有个温暖的家。可是却实现不了。她只是在哪里守候，守候着那段曾经的爱！﻿﻿<br><br>百灵持续了有几年，我有时路过看见百灵，都会和她坐上半天，我不说话，就这样和她坐一起。然后就会看见百灵不时的发出笑声，不时的给我比划着。她在告诉我，让我回家，她想一个人坐坐！﻿﻿<br><br>直到5年前，百灵才走出这个伤心的事件。她不再每天都去村头，只是偶尔会在哪坐上一会。我知道她是爱罗锅的，我知道她疯的比正常人还清醒。﻿﻿<br><br>也许世人都不懂，当然我也只是不懂装懂，只是想着曾经还算是一起长大的，我只是有些替百灵抱不平。﻿﻿<br><br>后来她带着孩子离开了那个村，回到了我们村，和老薛一家又住到了一起。﻿﻿<br><br>现在百灵，有时还会走到村头，然后在那里傻傻的站半天，只是眼中没有了之前的忧郁，多了些希望！﻿﻿<br><br>如果有一天百灵可以开口说话，我想她一定会对着苍天大喊:“亲爱的罗锅，我爱你！你快回来！你快回来！我在等你！”﻿﻿<br><br>祝福百灵，也希望有一天她可以像百灵鸟一样歌唱！﻿﻿<br><br>我想她一定会大声歌唱，只为守候的那个人唱出这世间最美的情歌！<br><br></font>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/2017/10/08/10月1号/villiager.jpeg&quot; alt=&quot;烟花&quot;&gt;&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;256&quot; height=&quot;52&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;id=458348749&amp;auto=1&amp;height=32&quot;&gt;&lt;/iframe&gt;&lt;br&gt;﻿&lt;font color=&quot;white&quot;&gt;她在等待一个人的到来， 但那个人永远也不会回来了，但她还是相信那个人会出现在她面前。﻿﻿&lt;br&gt;她就是我们村的哑巴女——百灵，村里人都管他叫三姐，因为她在家里排行老三。﻿﻿&lt;br&gt;说起她为啥变成了哑巴，还要从她出生开始说起，本来这隔壁村谢家已经有了2个女儿，然后为了要个男孩，不顾计划生育，非要生个男孩，结果这丫头生出来，就不怎么招待见。家里人都是比较失望，尤其是她那爷爷奶奶。﻿﻿&lt;/font&gt;&lt;/p&gt;
+&lt;font color=&quot;white&quot;&gt;&lt;br&gt;这三姐刚出生，还是会嘤嘤啼哭，直到长到三岁，不知怎么的就突然不会说话，只会啊啊的叫着，这谢家人，本来就不太喜欢这三女儿。就送给了我们村，一对老夫妻手中，这家男人姓薛，大家都管他叫老薛。&lt;/font&gt;
+    
+    </summary>
+    
+      <category term="阅读" scheme="http://www.madejun.top/categories/%E9%98%85%E8%AF%BB/"/>
+    
+    
+      <category term="故事" scheme="http://www.madejun.top/tags/%E6%95%85%E4%BA%8B/"/>
+    
+  </entry>
+  
+</feed>
