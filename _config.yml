@@ -71,7 +71,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia
+theme: spfk
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -79,7 +79,7 @@ deploy:
    type: git
    repo: 
        github: https://github.com/MaDejun/Blog-Back-Up.git
-       
+       coding: https://git.coding.net/MaDejun/MaDejun.git
    branch: master
    -type: baidu_url_submitter
 # Extensions
@@ -114,7 +114,7 @@ jsonContent:
     link: false
     permalink: true
     excerpt: false
-    categories: false
+    categories: true 
     tags: true
 live2d:
   model: z16
@@ -151,19 +151,24 @@ admin:
 encrypt:
    
  enable: true 
- password: passwd
- template: 
-           '<input type="text" style=" border-radius: 5px; border-style: groove; height: 30px; width: 50%; cursor: auto; font-size: 102%; color: currentColor; outline: none; text-overflow: initial; padding-left: 5px;">  
-              <input type="submit" value="解密" onclick="decrypt()" style=" width: 58px; height: 34px; border-radius: 5px; background-color: white; border-style: solid; color: currentColor; "> 
-        <div id="enc_error" style=" display: inline-block; color: #d84527; font: large; "></div>
-              <script> 
-        var onError = function(error) { 
-          $("#enc_error")[0].innerHTML = "密码错误!"; 
-        }; 
-                function decrypt() { 
-                    var passwd = $("#enc_passwd input")[0].value; 
-                    console.log(passwd); 
-                    doDecrypt(passwd, onError); 
-                } 
-              </script>' 
-               
+ default_abstract: 文章访问受限制 请输入密码后访问
+ default_message: 请输入密码
+ default_template:
+                    
+                    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+                    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+                    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+                    <div id="security">
+                        
+                        <div>
+                            <div class="input-group">
+                                <input type="text" class="form-control" aria-label="请输入密码" id="pass"/>
+                                <div class="input-group-btn">
+                                    <button type="button" class="btn btn-default" onclick="decryptAES()">解密</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="encrypt-blog" style="display:none">
+                        {{content}}
+                    </div>
