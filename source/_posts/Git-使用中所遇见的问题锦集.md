@@ -1,5 +1,7 @@
 ---
 title: 'Git:使用中所遇见的问题锦集'
 date: 2017-11-08 13:22:57
-tags:
+tags: git
+password: Mike
+categories: 学习
 ---

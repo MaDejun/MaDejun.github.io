@@ -117,7 +117,7 @@
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
           var minSrc = 'https://raw.githubusercontent.com/MaDejun/Blog-Back-Up/master/min_photos/' + data.link[i];
-          var src = 'https://raw.githubusercontent.com/MaDejun/Blog-Back-Up/tree/master/photos/' + data.link[i];
+          var src = 'https://raw.githubusercontent.com/MaDejun/Blog-Back-Up/master/photos/' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
           src += '';

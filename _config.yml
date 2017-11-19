@@ -13,6 +13,7 @@ timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://www.madejun.top
+
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -116,9 +117,7 @@ jsonContent:
     excerpt: false
     categories: true 
     tags: true
-live2d:
-  model: z16
-  bottom: -30
+
 
 
 #百度分享功能
@@ -172,3 +171,9 @@ encrypt:
                     <div id="encrypt-blog" style="display:none">
                         {{content}}
                     </div>
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+                    
