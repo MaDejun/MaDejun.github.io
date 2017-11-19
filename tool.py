@@ -1,4 +1,4 @@
-﻿#coding:utf-8
+#coding: utf-8
 from PIL import Image
 import os
 import sys
@@ -167,7 +167,7 @@ def git_operation():
     os.system('git commit -m "add photos"')
     os.system('git push --all origin')
 
-if __name__ == "__main__":
+if __name__  == "__main__":
     cut_photo()        # 裁剪图片，裁剪成正方形，去中间部分
     compress_photo()   # 压缩图片，并保存到mini_photos文件夹下
     git_operation()    # 提交到github仓库
