@@ -25,6 +25,6 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.2.11",
     "hexo-renderer-stylus": "^0.2.3",
-    "hexo-server": "^0.2.2"
+  "hexo-helper-live2d": "1.0.5",  "hexo-server": "^0.2.2"
   }
 }

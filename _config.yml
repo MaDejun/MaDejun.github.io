@@ -176,4 +176,7 @@ search:
   field: post
   format: html
   limit: 10000
-                    
+#live  2d
+live2d:
+  model: koharu
+  bottom: -60                    
