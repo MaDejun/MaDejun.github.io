@@ -79,7 +79,7 @@ theme: spfk
 deploy:
    type: git
    repo: 
-       github: https://github.com/MaDejun/Blog-Back-Up.git
+       github: https://github.com/MaDejun/MaDejun.github.io.git
        coding: https://git.coding.net/MaDejun/MaDejun.git
    branch: master
    -type: baidu_url_submitter
